@@ -58,36 +58,6 @@ text-align: center;
     background-color: #dad6d6;
 }
 
-element.style {
-}
-.center, .mr-auto {
-    margin-right: auto;
-}
-.center {
-    margin-left: auto;
-}
-.mt5 {
-    margin-top: 4rem;
-}
-.ph0 {
-    padding-left: 0;
-    padding-right: 0;
-}
-.pb0 {
-    padding-bottom: 0;
-}
-.mw8 {
-    max-width: 64rem;
-}
-.flex-column {
-    flex-direction: column;
-}
-.flex {
-    display: flex;
-}
-
-element.style {
-}
 .border-box, a, article, aside, blockquote, body, code, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], legend, li, main, nav, ol, p, pre, section, table, td, textarea, th, tr, ul {
     box-sizing: border-box;
 }
@@ -233,11 +203,14 @@ body, input, button {
     #qr-data {
         color: white;
         background-color: #860ad9;
+        gap: 15px;
+        border-radius: 20px;
     }
 }
 #qr-data {
     color: black;
     background-color: white;
+    border-radius: 20px;
 }
 @media screen and (min-width: 30em) {
     .ph5-ns {
@@ -286,38 +259,6 @@ div {
 }
 body, input, button {
     font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
-}
-
-
-#qr-data {
-    color: black;
-    background-color: white;
-}
-.f6 {
-    font-size: .875rem;
-}
-.tc {
-    text-align: center;
-}
-body, input, button {
-    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
-}
-
-#qr-data {
-    color: black;
-    background-color: white;
-}
-.f6 {
-    font-size: .875rem;
-}
-.tc {
-    text-align: center;
-}
-body, input, button {
-    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
-}
-
-element.style {
 }
 
 @media screen and (min-width: 30em) {
@@ -415,8 +356,6 @@ div {
     text-align: center;
 }
 
-element.style {
-}
 @media screen and (min-width: 30em) {
     .mt4-ns {
         margin-top: 2rem;
