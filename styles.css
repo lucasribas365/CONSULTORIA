@@ -48,6 +48,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     width: 300px;
+    border-radius: 10px;
 
 }
 .card-btn:hover{
@@ -70,5 +71,6 @@
     margin-top: 8px;
     width: 100%;
     text-align: center;
+    border-radius: 10px;
 
 }
