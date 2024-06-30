@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans' , sans-serif;
+}
+.menu-fixo{
+    position: static;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0.9;
+    color: #eaeaea;
+    background-color: #161515;
+    text-align: center;
+}
+
+.menu-h{
+    list-style-type: none;
+    padding: 0;
+    background: linear-gradient(#858282 0%, #161515 100%) 
+
+}
+
+.menu-h li{
+    display: inline;    
+}
+
+.menu-h li a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.menu-h a:hover{
+    background-color: #f5e9e9;
+    color:#171717
+}
+
+@media (hover: hover){
+    .wa-web{
+        display: block !important;   
+        text-decoration: none;
+        background-color: #059b08;
+        color: #fefefe;
+        font-weight: 600;
+        font-size: 2.4rem;
+        padding: 10px 0;
+        margin-top: 8px;
+        width: 100%;
+        text-align: center;
+    }
+}
+.wa-web{
+    display: none;
+}
+
+@media (hover:none){
+    .wa-me{
+        display: block !important;
+        display: block !important;   
+        text-decoration: none;
+        background-color: #000000;
+        color: #fefefe;
+        font-weight: 600;
+        font-size: 2.4rem;
+        padding: 10px 0;
+        margin-top: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    }
+.wa-me{
+    display: none;
+}
+
+.linkedin{
+        display: block;
+        max-width: 100vw;
+        border: 30px solid rgb(255, 255, 255);
+        border-radius: 20px;
+        color: black;
+        width: 100vw;
+        text-align: justify;
+        justify-content: center;
+        align-items: center;
+}
+
+.curriculo{
+    display: block;
+    border: 30px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+    text-align: justify;
+}
+
+.consult{
+    display: block;
+    border: 30px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+    text-align: justify;
+}
+
+@media (hover: hover){
+    .top-web{
+        display: block !important;   
+        text-decoration: none;
+        background-color: #059b08;
+        color: #fefefe;
+        font-weight: 600;
+        font-size: 2.4rem;
+        padding: 10px 0;
+        margin-top: 8px;
+        width: 100%;
+        text-align: center;
+    }
+}
+.top-web{
+    display: none;
+}
+
+@media (hover:none){
+    .top-me{
+        display: block !important;
+        display: block !important;   
+        text-decoration: none;
+        background-color: #000000;
+        color: #fefefe;
+        font-weight: 600;
+        font-size: 2.4rem;
+        padding: 10px 0;
+        margin-top: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    }
+.top-me{
+    display: none;
+}
