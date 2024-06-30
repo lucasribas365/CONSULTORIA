@@ -17,7 +17,7 @@
     text-align: center;
 }
 .search-text{
-background: linear-gradient(#565353 0%, #161515 100&);
+background: linear-gradient(#565353 0%, #161515 100%);
 border-radius: 5px;
 text-align: center;
 
@@ -25,7 +25,7 @@ text-align: center;
 
 .search-text::placeholder{
     color: rgba(7, 7, 7, 0.751);
-    background: linear-gradient(#f2f0f0 0%, #666262) 
+    background: linear-gradient(#f2f0f0 0%, #666262);
 
 }
 .menu-h{
@@ -91,7 +91,7 @@ element.style {
 .border-box, a, article, aside, blockquote, body, code, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], legend, li, main, nav, ol, p, pre, section, table, td, textarea, th, tr, ul {
     box-sizing: border-box;
 }
-user agent stylesheet
+
 div {
     display: block;
     unicode-bidi: isolate;
@@ -128,7 +128,7 @@ body, input, button {
 .border-box, a, article, aside, blockquote, body, code, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], legend, li, main, nav, ol, p, pre, section, table, td, textarea, th, tr, ul {
     box-sizing: border-box;
 }
-user agent stylesheet
+
 main {
     display: block;
     unicode-bidi: isolate;
@@ -145,7 +145,7 @@ body, input, button {
 .border-box, a, article, aside, blockquote, body, code, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], legend, li, main, nav, ol, p, pre, section, table, td, textarea, th, tr, ul {
     box-sizing: border-box;
 }
-user agent stylesheet
+
 div {
     display: block;
     unicode-bidi: isolate;
@@ -179,7 +179,7 @@ body, input, button {
 .border-box, a, article, aside, blockquote, body, code, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], legend, li, main, nav, ol, p, pre, section, table, td, textarea, th, tr, ul {
     box-sizing: border-box;
 }
-user agent stylesheet
+
 section {
     display: block;
     unicode-bidi: isolate;
@@ -220,7 +220,7 @@ body, input, button {
 .border-box, a, article, aside, blockquote, body, code, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], legend, li, main, nav, ol, p, pre, section, table, td, textarea, th, tr, ul {
     box-sizing: border-box;
 }
-user agent stylesheet
+
 section {
     display: block;
     unicode-bidi: isolate;
@@ -273,7 +273,7 @@ body, input, button {
 .border-box, a, article, aside, blockquote, body, code, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], legend, li, main, nav, ol, p, pre, section, table, td, textarea, th, tr, ul {
     box-sizing: border-box;
 }
-user agent stylesheet
+
 div {
     display: block;
     unicode-bidi: isolate;
@@ -403,7 +403,7 @@ element.style {
 .border-box, a, article, aside, blockquote, body, code, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], legend, li, main, nav, ol, p, pre, section, table, td, textarea, th, tr, ul {
     box-sizing: border-box;
 }
-user agent stylesheet
+
 div {
     display: block;
     unicode-bidi: isolate;
@@ -443,7 +443,7 @@ element.style {
 .border-box, a, article, aside, blockquote, body, code, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], legend, li, main, nav, ol, p, pre, section, table, td, textarea, th, tr, ul {
     box-sizing: border-box;
 }
-user agent stylesheet
+
 div {
     display: block;
     unicode-bidi: isolate;
@@ -710,7 +710,8 @@ div {
                 .border-box, a, article, aside, blockquote, body, code, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], legend, li, main, nav, ol, p, pre, section, table, td, textarea, th, tr, ul {
                     box-sizing: border-box;
                 }
-                user agent stylesheet
+            
+                
                 div {
                     display: block;
                     unicode-bidi: isolate;
@@ -753,13 +754,13 @@ h1 {
     font-size: 2em;
     margin: .67em 0;
 }
-user agent stylesheet
+
 :-webkit-any(article, aside, nav, section) h1 {
     font-size: 1.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
 }
-user agent stylesheet
+
 h1 {
     display: block;
     font-size: 2em;
@@ -802,13 +803,13 @@ h1 {
     font-size: 2em;
     margin: .67em 0;
 }
-user agent stylesheet
+
 :-webkit-any(article, aside, nav, section) h1 {
     font-size: 1.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
 }
-user agent stylesheet
+
 h1 {
     display: flex;
     font-size: 2em;
@@ -824,6 +825,3 @@ h1 {
     flex-direction: column;
     width: 300px;
 }
-
-                
-                
