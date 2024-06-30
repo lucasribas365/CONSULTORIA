@@ -40,7 +40,7 @@
     color:#171717
 }
 
-@media (hover: hover){
+@media (hover: hover) and (pointer: fine){
     .wa-web{
         display: block !important;   
         text-decoration: none;
@@ -58,7 +58,7 @@
     display: none;
 }
 
-@media (hover:none){
+@media (hover: none) and (pointer: coarse){
     .wa-me{
         display: block !important;
         display: block !important;   
@@ -77,16 +77,38 @@
     display: none;
 }
 
+img{
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    /*desktop*/
+.linkedin img:first-of-type{
+    display: block;
+}
+/*mobile*/
+.linkedin img:nth-of-type(2) {
+    display: none;
+}
+    
+  }
+
 .linkedin{
         display: block;
-        max-width: 100vw;
         border: 30px solid rgb(255, 255, 255);
         border-radius: 20px;
         color: black;
-        width: 100vw;
+        width: 100%;
         text-align: justify;
         justify-content: center;
         align-items: center;
+}
+/*desktop*/
+.linkedin img:first-of-type{
+    display: none;
+}
+/*mobile*/
+.linkedin img:nth-of-type(2) {
+    display: block;
 }
 
 .curriculo{
