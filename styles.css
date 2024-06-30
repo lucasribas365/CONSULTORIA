@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans' , sans-serif;
+}
+.menu-fixo{
+    position: static;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0.9;
+    color: #eaeaea;
+    background-color: #161515;
+    text-align: center;
+}
+.menu-h{
+    list-style-type: none;
+    padding: 0;
+    background: linear-gradient(#858282 0%, #161515 100%) 
+
+}
+
+.menu-h li{
+    display: inline;    
+}
+
+.menu-h li a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.menu-h a:hover{
+    background-color: #f5e9e9;
+    color:#171717
+    
+
+}
+.card{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 300px;
+
+}
+.card-btn:hover{
+    color: #f9bf99;
+    background-color: #560505;
+}
+.container{
+    display: grid;
+    place-content: center;
+    gap: 70px;
+    background-color: #f5e9e9;
+}
+.card-btn{
+    text-decoration: none;
+    background-color: #f9bf99;
+    color: #560505;
+    font-weight: 600;
+    font-size: 2.4rem;
+    padding: 10px 0;
+    margin-top: 8px;
+    width: 100%;
+    text-align: center;
+    
+}
