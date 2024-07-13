@@ -12,14 +12,13 @@
     background-color: #fff;
     opacity: 0.9;
     color: #eaeaea;
-    background-color: #161515;
+    background-color: #2980b9;
     text-align: center;
 }
-
 .menu-h{
     list-style-type: none;
     padding: 0;
-    background: linear-gradient(#858282 0%, #161515 100%) 
+    background: linear-gradient(#f1efef 0%, #2980b9; 100%) 
 
 }
 
@@ -44,7 +43,7 @@
     .wa-web{
         display: block !important;   
         text-decoration: none;
-        background-color: #059b08;
+        background-color: #2980b9;
         color: #fefefe;
         font-weight: 600;
         font-size: 2.4rem;
@@ -135,7 +134,7 @@ img{
     .top-web{
         display: block !important;   
         text-decoration: none;
-        background-color: #059b08;
+        background-color: #2980b9;
         color: #fefefe;
         font-weight: 600;
         font-size: 2.4rem;
