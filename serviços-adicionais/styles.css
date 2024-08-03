@@ -161,8 +161,8 @@ main {
 }
 
 .linkedin img, .curriculo img, .consult img {
-    width: 600px; /* Permite que a largura da imagem se ajuste automaticamente */
-    max-width: 6000px; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    width: 600px; /* Largura padrão para desktop */
+    max-width: 600px; /* Garante que a imagem não ultrapasse a largura do contêiner */
     height: 600px; /* Mantém a proporção da altura */
     max-height: 150px; /* Define a altura máxima maior para melhorar a visualização vertical */
     object-fit: cover; /* Ajusta a imagem para cobrir o contêiner mantendo a proporção */
@@ -171,8 +171,48 @@ main {
     display: block;
 }
 
-/* Estilo do Rodapé */
+/* Estilo Responsivo para Mobile */
+@media (max-width: 768px) {
+    .linkedin img, .curriculo img, .consult img {
+        width: 100%; /* Ajusta a largura da imagem para 100% do contêiner em dispositivos móveis */
+        height: auto; /* Mantém a altura proporcional */
+        max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    }
 
+    .menu-fixo {
+        position: static; /* Remove o posicionamento fixo no mobile */
+        box-shadow: none; /* Remove a sombra para um visual mais limpo */
+    }
+
+    .menu-h {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-h li {
+        width: 100%;
+    }
+
+    .menu-h li ul {
+        position: static;
+        display: none;
+    }
+
+    .menu-h li.active ul {
+        display: block;
+    }
+
+    .menu-h li a {
+        display: block;
+        padding: 15px;
+    }
+
+    .menu-h li ul li a {
+        padding: 10px 15px;
+    }
+}
+
+/* Estilo do Rodapé */
 .footer {
     background-color: #121213;
     padding: 50px 20px;
@@ -234,7 +274,6 @@ main {
 .footer .footer-icons a:hover {
     background-color: #2fcacf;
 }
-
 
 /* Responsividade para dispositivos menores */
 @media (max-width: 768px) {
