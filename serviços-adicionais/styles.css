@@ -157,6 +157,7 @@ main {
     padding: 10px;
     margin-bottom: 20px;
     color: #000; /* Cor do texto nas seções */
+    text-align: justify;
 }
 
 .linkedin img, .curriculo img, .consult img {
@@ -166,6 +167,8 @@ main {
     max-height: 150px; /* Define a altura máxima maior para melhorar a visualização vertical */
     object-fit: cover; /* Ajusta a imagem para cobrir o contêiner mantendo a proporção */
     margin-bottom: 20px;
+    margin: auto;
+    display: block;
 }
 
 /* Estilo do Rodapé */
