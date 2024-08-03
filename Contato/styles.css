@@ -1,0 +1,195 @@
+/* Geral */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-fixo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #161515;
+    color: #eaeaea;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.menu-h {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#858282 0%, #161515 100%);
+    position: relative;
+}
+
+.menu-h li {
+    position: relative;
+}
+
+.menu-h li a {
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.menu-h li a:hover {
+    background-color: #f5e9e9;
+    color: #171717;
+    border-radius: 5px;
+}
+
+.menu-h ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #161515;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-h li:hover ul {
+    display: block;
+}
+
+.menu-h ul li {
+    width: 200px;
+}
+
+.menu-h ul li a {
+    padding: 10px;
+    display: block;
+}
+
+.contact-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #161515;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-info .contact-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contact-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #161515;
+    border: 1px solid #161515;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-link:hover {
+    background-color: #161515;
+    color: #fff;
+}
+
+.contact-link img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.footer {
+    background-color: #121213;
+    padding: 50px 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer .title-footer {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.footer .title-footer span {
+    color: #2fcacf;
+}
+
+.footer .links {
+    margin-bottom: 20px;
+}
+
+.footer .links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer .links a:hover {
+    color: #2fcacf;
+}
+
+.footer .Copyright {
+    color: #8f9296;
+    font-size: 14px;
+}
+
+.footer .footer-icons {
+    margin-top: 20px;
+}
+
+.footer .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+    background-color: #33383b;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.footer .footer-icons a:hover {
+    background-color: #2fcacf;
+}
