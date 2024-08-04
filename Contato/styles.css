@@ -1,23 +1,15 @@
-/* Geral */
-body {
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
+/* Menu */
 .menu-fixo {
-    position: fixed;
-    top: 0;
+    position: fixed; /* Mantém o menu fixo na parte superior */
     width: 100%;
-    background-color: #161515;
+    background-color: #1c1c1c; /* Cor ajustada para mais sofisticação */
     color: #eaeaea;
     padding: 10px 0;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra mais forte para um efeito mais profissional */
     z-index: 1000;
+    top: 0;
+    left: 0;
 }
 
 .menu-h {
@@ -26,117 +18,156 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    background: linear-gradient(#858282 0%, #161515 100%);
-    position: relative;
 }
 
 .menu-h li {
     position: relative;
+    margin: 0;
+    border-bottom: 1px solid #333; /* Linha divisória entre itens do menu */
 }
 
 .menu-h li a {
-    color: #fff;
+    color: #eaeaea;
     padding: 10px 20px;
-    display: inline-block;
+    display: block; /* Alterado para block para lista vertical */
     text-decoration: none;
     font-weight: 600;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px; /* Borda arredondada para um visual mais suave */
 }
 
 .menu-h li a:hover {
-    background-color: #f5e9e9;
-    color: #171717;
-    border-radius: 5px;
+    background-color: #2fcacf; /* Cor de destaque mais suave */
+    color: #fff; /* Cor do texto no hover */
 }
 
-.menu-h ul {
+.menu-h li ul {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #161515;
+    background-color: #1c1c1c; /* Cor combinando com o menu fixo */
+    padding: 10px 0;
     list-style-type: none;
-    padding: 0;
     margin: 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra mais forte para o submenu */
+    z-index: 1000;
 }
 
 .menu-h li:hover ul {
     display: block;
 }
 
-.menu-h ul li {
-    width: 200px;
+.menu-h li ul li {
+    margin: 0;
 }
 
-.menu-h ul li a {
-    padding: 10px;
+.menu-h li ul li a {
+    padding: 10px 20px;
+    color: #eaeaea;
     display: block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
 }
 
+.menu-h li ul li a:hover {
+    background-color: #2fcacf; /* Cor de destaque mais suave */
+}
+
+/* Estilo Responsivo para Menu */
+@media (max-width: 768px) {
+    .menu-fixo {
+        position: static; /* Remove o posicionamento fixo no mobile */
+        box-shadow: none; /* Remove a sombra para um visual mais limpo */
+    }
+
+    .menu-h {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-h li {
+        width: 100%;
+    }
+
+    .menu-h li ul {
+        position: static;
+        display: none;
+    }
+
+    .menu-h li.active ul {
+        display: block;
+    }
+
+    .menu-h li a {
+        display: block;
+        padding: 15px;
+    }
+
+    .menu-h li ul li a {
+        padding: 10px 15px;
+    }
+}
+
+/* Estilo da Seção de Contato */
 .contact-section {
     padding: 60px 20px;
-    text-align: center;
+    background-color: #f9f9f9;
 }
 
 .contact-section h1 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #161515;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #333;
 }
 
 .contact-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
 }
 
-.contact-info .contact-item {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 100%;
+.contact-item {
     max-width: 600px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-item h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-item p {
+    font-size: 16px;
+    color: #666;
 }
 
 .contact-options {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 .contact-link {
-    display: flex;
-    align-items: center;
+    font-size: 16px;
+    color: #2fcacf;
     text-decoration: none;
-    color: #161515;
-    border: 1px solid #161515;
-    border-radius: 5px;
-    padding: 10px 20px;
-    background-color: #fff;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: color 0.3s ease;
 }
 
 .contact-link:hover {
-    background-color: #161515;
-    color: #fff;
+    color: #1a9e8f;
 }
 
-.contact-link img {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-}
-
+/* Rodapé */
 .footer {
     background-color: #121213;
     padding: 50px 20px;
     color: #ffffff;
     text-align: center;
-    margin-top: 60px;
 }
 
 .footer .title-footer {
@@ -192,4 +223,28 @@ body {
 
 .footer .footer-icons a:hover {
     background-color: #2fcacf;
+}
+/* Botões de Contato */
+.contact-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #2fcacf; /* Cor de fundo dos botões */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #1a9e8f; /* Cor do botão no hover */
+    transform: scale(1.05); /* Efeito de aumento no hover */
 }
