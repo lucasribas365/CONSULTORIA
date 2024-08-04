@@ -1,6 +1,23 @@
-/* Menu */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #121213; /* Cor combinando com o rodapé */
+    color: #f9f9f9; /* Cor combinando com o rodapé */
+    line-height: 1.6;
+}
+
+//* Menu Fixado no Topo */
 .menu-fixo {
-    position: fixed; /* Mantém o menu fixo na parte superior */
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     background-color: #1c1c1c; /* Cor ajustada para mais sofisticação */
     color: #eaeaea;
@@ -8,28 +25,27 @@
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra mais forte para um efeito mais profissional */
     z-index: 1000;
-    top: 0;
-    left: 0;
 }
 
+/* Lista de Menu */
 .menu-h {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .menu-h li {
     position: relative;
-    margin: 0;
-    border-bottom: 1px solid #333; /* Linha divisória entre itens do menu */
+    margin: 0 15px;
 }
 
 .menu-h li a {
     color: #eaeaea;
     padding: 10px 20px;
-    display: block; /* Alterado para block para lista vertical */
+    display: inline-block;
     text-decoration: none;
     font-weight: 600;
     transition: background-color 0.3s ease, color 0.3s ease;
